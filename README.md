@@ -11,7 +11,7 @@ Names above 25% value are not affected.
 - Adjusts colors to ensure visibility against dark backgrounds.
 
 ![image before adjustment/0%](https://github.com/user-attachments/assets/88f9a96d-09b0-4910-a5b0-fe2f08f40bac)
-Before adjustment or at 0%, has value: rgb(17, 4, 4) == HSV 0°, 76%, 7%
+Before adjustment or at 0%, has value: rgb(17, 4, 4) == HSV 0°, 76%, 7% (default role color)
 
 ![image at 25%](https://github.com/user-attachments/assets/c1f8daac-2c68-403d-a9cc-b5554765c4c5)
 After adjustment at 25%, has value: rgb(64, 15, 15) == HSV 0°, 76%, 25%
