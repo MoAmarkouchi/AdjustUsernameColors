@@ -20,7 +20,7 @@ After adjustment, has value: rgb(64, 15, 15) == HSV 0°, 78%, 25%
 
 ## Usage
 - The plugin automatically adjusts colors as usernames are rendered.
-- If 25 is too low, open discord settings > plugins > Edit AdjustUsernameColors and change const thresholdV = 25; to any other number you'd like between 1 - 100. Higher number makes it brighter.
+- If 25 is too low, open discord settings > plugins > Edit AdjustUsernameColors and change const thresholdV = 25; to any other number you'd like between 1 - 100. Higher number makes it brighter. Putting it at 100 will make all the names maximum brightness.
 
 ## License
 This project is licensed under the MIT License.
