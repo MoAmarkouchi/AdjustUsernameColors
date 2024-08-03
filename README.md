@@ -3,6 +3,7 @@
 A BetterDiscord plugin that adjusts username colors based on brightness.
 
 Some role colors make it too difficult to see usernames, this plugin makes those names brighter without affecting already bright names.
+
 Code converts RGB value of usernames to HSV and checks if the V value is below 25% (default value, can be changed in the code)
 If it is, set the V value to 25%, convert the new values back to RGB and apply them.
 Names above 25% value are not affected.
