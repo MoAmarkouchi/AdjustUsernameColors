@@ -9,10 +9,10 @@ Names above 25% value are not affected.
 - Adjusts colors to ensure visibility against dark backgrounds.
 
 ![Image before adjustment](https://github.com/user-attachments/assets/1b0ebce3-efb5-4f44-b7dc-d93abaf757b4)
-Before adjustment has value: rgb(17, 4, 4) == HSV 0°, 76%, 7%
+Before adjustment, has value: rgb(17, 4, 4) == HSV 0°, 76%, 7%
 
 ![image after adjustment](https://github.com/user-attachments/assets/5977f844-0c56-41c3-be59-eadf2fe15722)
-After adjustment has value: rgb(64, 15, 15) == HSV 0°, 78%, 25%
+After adjustment, has value: rgb(64, 15, 15) == HSV 0°, 78%, 25%
 
 ## Installation
 1. Download the plugin file.
@@ -20,6 +20,7 @@ After adjustment has value: rgb(64, 15, 15) == HSV 0°, 78%, 25%
 
 ## Usage
 - The plugin automatically adjusts colors as usernames are rendered.
+- If 25 is too low, open discord settings > plugins > Edit AdjustUsernameColors and change const thresholdV = 25; to any other number you'd like between 1 - 100. Higher number makes it brighter.
 
 ## License
 This project is licensed under the MIT License.
